@@ -1,0 +1,34 @@
+<html>
+
+<title>jQuerytitle</title>
+
+<head>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#Div1").animate({ "top": "+=100px" }, 900).delay(200);
+
+            // this 2nd div is for bottom to top
+            $("#Div1").animate({ "top": "-=100px" }, 900);
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id="Div1" style="position: relative; width: 20%;height: 20%;">
+
+        <img src="image/girl.jpg" style="width:50%; height: 50%;">
+
+    </div>
+
+</body>
+
+</html>
